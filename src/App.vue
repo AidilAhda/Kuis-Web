@@ -21,8 +21,11 @@
   text-decoration: none;
 }
 
+
 nav {
   padding: 30px;
+  text-align: start;
+  background-color: rgb(252, 48, 252);
 }
 
 nav a {
@@ -31,11 +34,9 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: rgb(236, 132, 205);
+  color: white;
 }
-body {
-  background: rgb(211, 19, 211);
-}
+
 /* responsive query start */
 @media (max-width: 1104px) {
   .home .max-width {
