@@ -8,7 +8,7 @@
                 <div class="text-1"> Hello,My Name is </div>
                 <div class="text-2"> Aidil Ahda</div>
                 <div class="text-3"> and I'm a <span>Student</span></div>
-                <router-link to="/about">my cv</router-link> 
+                <router-link to="/about">Download My CV</router-link> 
             </div>
         </div>
     </section>
@@ -22,14 +22,19 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 /* home styling */ 
-
-
 .home .max-width {
   margin: auto 0 auto 40px;
 }
 
 .home .home-content .text-1 {
   font-size: 27px;
+}
+.home .home-content {
+  align-content: center;
+  margin: 25px;
+  width: 500px;
+  height: 200px;
+  
 }
 
 .home .home-content .text-2 {
